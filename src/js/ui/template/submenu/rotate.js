@@ -11,13 +11,13 @@ export default ({locale, makeSvgIcon}) => (`
                 <div>
                     ${makeSvgIcon(['normal', 'active'], 'rotate-clockwise', true)}
                 </div>
-                <label> 30 </label>
+                <label> 90 </label>
             </div>
             <div class="tui-image-editor-button counterclockwise">
                 <div>
                     ${makeSvgIcon(['normal', 'active'], 'rotate-counterclockwise', true)}
                 </div>
-                <label> -30 </label>
+                <label> -90 </label>
             </div>
         </li>
         <li class="tui-image-editor-partition only-left-right">
